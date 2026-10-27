@@ -1,0 +1,21 @@
+{
+ "name": "Shanghai Subsidy Radar — China policy data feed",
+ "version": 1,
+ "updatedAt": "2026-10-27T23:27:14.552Z",
+ "cadence": "daily 08:00 Asia/Shanghai",
+ "count": 156,
+ "openCount": 4,
+ "sources": [
+  "上海市科委 · 通知公告",
+  "上海市商务委 · 规范性文件",
+  "上海市人社局 · 规范性文件",
+  "上海市政府 · 政策文件",
+  "上海市知识产权局 · 通知公告",
+  "上海市发改委 · 政策文件",
+  "上海市交通委 · 通知公告",
+  "宝山区 · 产业政策",
+  "上海市经信委 · 专项资金通知公告"
+ ],
+ "license": "Public government notices. Original Chinese notice is authoritative. Attribution: Shanghai Subsidy Radar (shituapp.com/dot).",
+ "homepage": "https://shituapp.com/dot/en/api.html"
+}

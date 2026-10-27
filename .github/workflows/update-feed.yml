@@ -1,0 +1,29 @@
+name: update-feed
+
+on:
+  schedule:
+    - cron: "30 0 * * *"   # 08:30 Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Pull latest feed
+        run: |
+          curl -fsSL "https://shituapp.com/dot/api/programs.json?ts=$(date +%s)" -o data/programs.json
+      - name: Commit if changed
+        run: |
+          git config user.name "feed-updater"
+          git config user.email "support@shituapp.com"
+          if ! git diff --quiet -- data/programs.json; then
+            git add data/programs.json
+            git commit -m "chore: update feed $(date -u +%F)"
+            git push
+          else
+            echo "no changes"
+          fi

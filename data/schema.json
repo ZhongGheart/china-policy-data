@@ -1,0 +1,84 @@
+{
+ "": "http://json-schema.org/draft-07/schema#",
+ "title": "Shanghai policy data feed",
+ "type": "object",
+ "required": [
+  "meta",
+  "programs"
+ ],
+ "properties": {
+  "meta": {
+   "type": "object"
+  },
+  "programs": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "title",
+     "url",
+     "source",
+     "published",
+     "isOpen"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "title": {
+      "type": "string"
+     },
+     "url": {
+      "type": "string"
+     },
+     "source": {
+      "type": "string"
+     },
+     "sourceId": {
+      "type": "string"
+     },
+     "published": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "deadline": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "daysLeft": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "isOpen": {
+      "type": "boolean"
+     },
+     "firstSeen": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "score": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "snippet": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  }
+ }
+}
