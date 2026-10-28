@@ -34,6 +34,23 @@ Any agent or workflow with HTTP access can read the feed directly. Example promp
 
 > Fetch https://shituapp.com/dot/api/programs.json and list every program whose `isOpen` is true, sorted by deadline. For each, output title, deadline, daysLeft and the official URL.
 
+
+## Use it from an AI agent
+
+The feed is plain JSON over HTTPS, so any agent or workflow tool with HTTP access can read it directly.
+
+```
+Fetch https://shituapp.com/dot/api/programs.json and list every program
+whose isOpen is true, sorted by deadline. For each, output title,
+deadline, daysLeft, category and the official URL.
+```
+
+For MCP users: wrap the URL in a generic `fetch` / `http` tool — no scraper or browser needed. A machine-readable site summary is also published at https://shituapp.com/dot/llms.txt
+
+## English overlay for open programmes
+
+Records include `titleEn` and `summaryEn` for currently open programmes when available, so agents can answer questions without translating the Chinese titles first. `title` and `url` remain the authoritative fields.
+
 ## Update cadence
 
 The hosted feed is regenerated every morning at ~08:10 China time. A GitHub Action in this repo pulls the latest copy into `data/programs.json` at 08:30 China time, so the snapshot here stays current.
