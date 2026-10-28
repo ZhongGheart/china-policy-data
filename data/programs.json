@@ -2,7 +2,7 @@
  "meta": {
   "name": "Shanghai Subsidy Radar — China policy data feed",
   "version": 1,
-  "updatedAt": "2026-10-28T00:49:41.139Z",
+  "updatedAt": "2026-10-28T00:55:43.028Z",
   "cadence": "daily 08:00 Asia/Shanghai",
   "count": 158,
   "openCount": 4,
