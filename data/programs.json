@@ -2,9 +2,9 @@
  "meta": {
   "name": "Shanghai Subsidy Radar — China policy data feed",
   "version": 1,
-  "updatedAt": "2026-10-27T23:27:14.552Z",
+  "updatedAt": "2026-10-28T00:49:41.139Z",
   "cadence": "daily 08:00 Asia/Shanghai",
-  "count": 156,
+  "count": 158,
   "openCount": 4,
   "sources": [
    "上海市科委 · 通知公告",
@@ -17,6 +17,71 @@
    "宝山区 · 产业政策",
    "上海市经信委 · 专项资金通知公告"
   ],
+  "sourceDetails": [
+   {
+    "id": "sh-jxw-fund",
+    "name": "上海市经信委 · 专项资金通知公告",
+    "url": "https://www.sheitc.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-kjw-notice",
+    "name": "上海市科委 · 通知公告",
+    "url": "https://stcsm.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-gov-policy",
+    "name": "上海市政府 · 政策文件",
+    "url": "https://www.shanghai.gov.cn",
+    "weight": 1
+   },
+   {
+    "id": "sh-sww-gfx",
+    "name": "上海市商务委 · 规范性文件",
+    "url": "https://sww.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-rsj-gfx",
+    "name": "上海市人社局 · 规范性文件",
+    "url": "https://rsj.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-fgw-zcwj",
+    "name": "上海市发改委 · 政策文件",
+    "url": "https://fgw.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-sipa-tzgg",
+    "name": "上海市知识产权局 · 通知公告",
+    "url": "https://sipa.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-jtw-tzgg",
+    "name": "上海市交通委 · 通知公告",
+    "url": "https://jtw.sh.gov.cn",
+    "weight": 3
+   },
+   {
+    "id": "sh-baoshan-cyzc",
+    "name": "宝山区 · 产业政策",
+    "url": "https://www.shbsq.gov.cn",
+    "weight": 2
+   }
+  ],
+  "categories": {
+   "recognition": 6,
+   "application": 15,
+   "subsidy": 26,
+   "policy": 67,
+   "publicity": 26,
+   "event": 2,
+   "other": 16
+  },
   "license": "Public government notices. Original Chinese notice is authoritative. Attribution: Shanghai Subsidy Radar (shituapp.com/dot).",
   "homepage": "https://shituapp.com/dot/en/api.html"
  },
@@ -29,11 +94,14 @@
    "sourceId": "sh-kjw-notice",
    "published": "2026-10-16",
    "deadline": "2026-10-30",
-   "daysLeft": 4,
+   "daysLeft": 3,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 8,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": "2026 Shanghai (Yangtze River Delta) Young/Mid-career Engineers Innovation & Entrepreneurship Competition — science communication track (title assessment)",
+   "summaryEn": "Competition-based professional title assessment track for engineers working in science communication. Deadline 30 Oct 2026."
   },
   {
    "id": "p_b086e8b7d4",
@@ -43,11 +111,14 @@
    "sourceId": "sh-sww-gfx",
    "published": "2026-10-23",
    "deadline": "2026-11-01",
-   "daysLeft": 6,
+   "daysLeft": 5,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 9,
-   "snippet": "现将有关要求通知如下： 一、申报对象 在我市行政区域内，以家庭为服务对象，进入家庭成员住所，提供保洁、烹饪、生活照护等各类满足家庭日常生活需求的有偿服务活动的家政企业"
+   "snippet": "现将有关要求通知如下： 一、申报对象 在我市行政区域内，以家庭为服务对象，进入家庭成员住所，提供保洁、烹饪、生活照护等各类满足家庭日常生活需求的有偿服务活动的家政企业",
+   "category": "application",
+   "titleEn": "2026 Shanghai employee-based domestic service enterprises — application notice",
+   "summaryEn": "Joint notice from the Commerce Commission and Human Resources Bureau on applying for recognition as an employee-based domestic service enterprise. Deadline 1 Nov 2026."
   },
   {
    "id": "p_7f9b175024",
@@ -57,11 +128,14 @@
    "sourceId": "sh-sww-gfx",
    "published": "2026-09-29",
    "deadline": "2026-12-31",
-   "daysLeft": 66,
+   "daysLeft": 65,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 9,
-   "snippet": "一、资金支持范围 （一）文商旅体展联合促消费活动项目 支持范围： 支持文商旅体展活动组织单位、专业服务机构、社交平台等市场主体，在大型主题活动期间联合举办商业营销、餐饮休闲等促消费活动"
+   "snippet": "一、资金支持范围 （一）文商旅体展联合促消费活动项目 支持范围： 支持文商旅体展活动组织单位、专业服务机构、社交平台等市场主体，在大型主题活动期间联合举办商业营销、餐饮休闲等促消费活动",
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_5b8f626748",
@@ -71,11 +145,48 @@
    "sourceId": "sh-rsj-gfx",
    "published": "2026-10-09",
    "deadline": "2026-12-31",
-   "daysLeft": 66,
+   "daysLeft": 65,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 6,
-   "snippet": "二、补贴标准 符合条件的单位，按每招用1人补贴1500元的标准享受一次性扩岗补助"
+   "snippet": "二、补贴标准 符合条件的单位，按每招用1人补贴1500元的标准享受一次性扩岗补助",
+   "category": "subsidy",
+   "titleEn": "Shanghai one-off job expansion subsidy — policy extension notice",
+   "summaryEn": "Extension of the one-off subsidy for employers expanding headcount; issued by the Human Resources and Social Security Bureau and Finance Bureau. Deadline 31 Dec 2026."
+  },
+  {
+   "id": "p_e9fbc7581c",
+   "title": "关于开展上海市重点实验室（信息领域）评估工作的通知",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/zhtz/20261027/b9d67bf10d6a4c8eab8c5ef894ddbd93.html",
+   "source": "上海市科委 · 通知公告",
+   "sourceId": "sh-kjw-notice",
+   "published": "2026-10-27",
+   "deadline": null,
+   "daysLeft": null,
+   "isOpen": false,
+   "firstSeen": null,
+   "score": null,
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
+  },
+  {
+   "id": "p_32afd605a5",
+   "title": "关于组织开展2025-2026年大型科学仪器设施共享服务评估与奖励工作的通知",
+   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/zhtz/20261027/6e96895597374cf8a5d67d44af2a54a6.html",
+   "source": "上海市科委 · 通知公告",
+   "sourceId": "sh-kjw-notice",
+   "published": "2026-10-27",
+   "deadline": null,
+   "daysLeft": null,
+   "isOpen": false,
+   "firstSeen": null,
+   "score": null,
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_60ab2c6d57",
@@ -89,7 +200,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_dd7ce46e17",
@@ -103,7 +217,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_fa7bd60428",
@@ -117,7 +234,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_dd4963b2c2",
@@ -131,7 +251,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_22c19150b1",
@@ -145,7 +268,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_34dc632f34",
@@ -159,7 +285,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_44b711ec54",
@@ -173,7 +302,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_32ac22d745",
@@ -187,7 +319,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_8d0648965f",
@@ -201,7 +336,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "event",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_df49c5b157",
@@ -215,7 +353,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e5587c5a2a",
@@ -229,7 +370,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_895bec8251",
@@ -243,7 +387,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ade1eff13b",
@@ -257,7 +404,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_321aacccee",
@@ -271,7 +421,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_395383deb3",
@@ -285,7 +438,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_d505c36c40",
@@ -299,7 +455,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e51e8e58ae",
@@ -313,7 +472,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_d0047feffb",
@@ -327,7 +489,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_3843976b07",
@@ -341,7 +506,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4fb4deda86",
@@ -355,7 +523,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_324677f647",
@@ -369,7 +540,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7c2c9fb398",
@@ -383,7 +557,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_2ddf2d56ce",
@@ -397,7 +574,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_470d9814bb",
@@ -411,7 +591,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e918533687",
@@ -425,7 +608,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e398aba899",
@@ -439,7 +625,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_fee963eb02",
@@ -453,7 +642,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_0b569b4104",
@@ -467,7 +659,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": "2026 Shanghai commerce, culture, tourism and sports integrated consumption projects (third batch) — application guide",
+   "summaryEn": "Funding applications for integrated commerce/culture/tourism/sports consumption projects. Third batch, deadline 31 Dec 2026."
   },
   {
    "id": "p_af121c6a45",
@@ -481,7 +676,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_13a5255fbd",
@@ -495,7 +693,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_46136e64e5",
@@ -509,7 +710,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_93fb890d9e",
@@ -523,7 +727,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9690988a50",
@@ -537,7 +744,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1fd36c7ca5",
@@ -551,7 +761,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f8536fc468",
@@ -565,7 +778,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_fa1d644eb8",
@@ -579,7 +795,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_c702e6e32e",
@@ -593,7 +812,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1f8a456754",
@@ -607,7 +829,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_23211cbacf",
@@ -621,7 +846,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b84677558f",
@@ -635,7 +863,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_0cd0d7e5e1",
@@ -649,7 +880,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_c92c5a7738",
@@ -663,7 +897,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b7244e7e40",
@@ -677,7 +914,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a7760302c4",
@@ -691,7 +931,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "event",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_2bd499d125",
@@ -705,7 +948,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e6039f8e3a",
@@ -719,7 +965,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4ba3a4cb05",
@@ -733,7 +982,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1a783e2714",
@@ -747,7 +999,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_97b0191957",
@@ -761,7 +1016,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a4f5124a7a",
@@ -775,7 +1033,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ad78a4632b",
@@ -789,7 +1050,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f6f50d2920",
@@ -803,7 +1067,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9337111889",
@@ -817,7 +1084,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a588cabba7",
@@ -831,7 +1101,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_5601629539",
@@ -845,7 +1118,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1d99b0ae1c",
@@ -859,7 +1135,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f7d1d8d338",
@@ -873,7 +1152,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b533fda3bb",
@@ -887,7 +1169,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ff92085b66",
@@ -901,7 +1186,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_dc681b53d5",
@@ -915,7 +1203,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4acb5115a7",
@@ -929,7 +1220,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_817326ecc7",
@@ -943,7 +1237,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1674e7ee06",
@@ -957,7 +1254,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_34fb4c2b91",
@@ -971,7 +1271,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_86a32e379e",
@@ -985,7 +1288,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7b30114d83",
@@ -999,7 +1305,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_03aac151a1",
@@ -1013,7 +1322,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_58a1982302",
@@ -1027,7 +1339,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a8cc6ecc8e",
@@ -1041,7 +1356,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_52eed7360f",
@@ -1055,7 +1373,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_fd1043ee43",
@@ -1069,7 +1390,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_eebbe1fc90",
@@ -1083,7 +1407,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9c24b53c75",
@@ -1097,7 +1424,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_2748917b21",
@@ -1111,7 +1441,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f24b9b4074",
@@ -1125,7 +1458,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_78c4e5f708",
@@ -1139,7 +1475,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_87679fac0d",
@@ -1153,7 +1492,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_8b75ed1c08",
@@ -1167,7 +1509,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_14d6e7fba8",
@@ -1181,7 +1526,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_751daf0b4d",
@@ -1195,7 +1543,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_e4738f5650",
@@ -1209,7 +1560,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1fabc517af",
@@ -1223,7 +1577,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_c2928e8f4b",
@@ -1237,7 +1594,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4499f7331f",
@@ -1251,7 +1611,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_465ad5fecd",
@@ -1265,7 +1628,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9941f5e8f4",
@@ -1279,7 +1645,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_6efa6f708c",
@@ -1293,7 +1662,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_efb605a189",
@@ -1307,7 +1679,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_753c85bb99",
@@ -1321,7 +1696,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_756226e1fd",
@@ -1335,7 +1713,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_91fa22604a",
@@ -1349,7 +1730,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_75a8aa1a68",
@@ -1363,7 +1747,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7606c4df2b",
@@ -1377,7 +1764,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f23c810f75",
@@ -1391,7 +1781,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_bba048a204",
@@ -1405,7 +1798,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b72b4da799",
@@ -1419,7 +1815,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ad1f3a988f",
@@ -1433,7 +1832,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7338021141",
@@ -1447,7 +1849,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_0676af8eaa",
@@ -1461,7 +1866,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_6d39ac7425",
@@ -1475,7 +1883,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_233449a955",
@@ -1489,7 +1900,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4aa5831384",
@@ -1503,7 +1917,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_5376d68b4b",
@@ -1517,7 +1934,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_5d5998f61a",
@@ -1531,7 +1951,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_d0170ad0f8",
@@ -1545,7 +1968,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_be681904db",
@@ -1559,7 +1985,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4e36abc9ce",
@@ -1573,7 +2002,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_d16ff35344",
@@ -1587,7 +2019,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ecb4a30640",
@@ -1601,7 +2036,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_34a7acbc93",
@@ -1615,7 +2053,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_01b0478258",
@@ -1629,7 +2070,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a2cb6cfb16",
@@ -1643,7 +2087,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_694fc87b2a",
@@ -1657,7 +2104,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f609fc38fe",
@@ -1671,7 +2121,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_dd18c2e488",
@@ -1685,7 +2138,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_32fb1675a4",
@@ -1699,7 +2155,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_71cae0442f",
@@ -1713,7 +2172,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_4613c18317",
@@ -1727,7 +2189,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_cdcdeb909d",
@@ -1741,7 +2206,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_746663256b",
@@ -1755,7 +2223,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b9ea6d021c",
@@ -1769,7 +2240,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_53da87bb35",
@@ -1783,7 +2257,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_90aa30961b",
@@ -1797,7 +2274,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7b11bb2aec",
@@ -1811,7 +2291,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "recognition",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_2e8067aded",
@@ -1825,7 +2308,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ea108fc592",
@@ -1839,7 +2325,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a9c0ca9f67",
@@ -1853,7 +2342,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a3f844f9c0",
@@ -1867,7 +2359,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_cf5f65c8d3",
@@ -1881,7 +2376,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_a3ca3d9c84",
@@ -1895,7 +2393,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "publicity",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f9869da1ef",
@@ -1909,7 +2410,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9705c15c8a",
@@ -1923,7 +2427,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b8499d18fe",
@@ -1937,7 +2444,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_f98515c94c",
@@ -1951,7 +2461,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_382b1a17cf",
@@ -1965,7 +2478,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_cf5a157dff",
@@ -1979,7 +2495,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_98ca7e581f",
@@ -1993,7 +2512,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_6760c414de",
@@ -2007,7 +2529,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_9b93bf3fc9",
@@ -2021,7 +2546,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_92f3c03980",
@@ -2035,7 +2563,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_21bdda4dc7",
@@ -2049,7 +2580,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "policy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_82a3af0115",
@@ -2063,7 +2597,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "other",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_ad6d2c9bc6",
@@ -2077,7 +2614,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_753dbcf4e4",
@@ -2091,7 +2631,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_41a297d007",
@@ -2105,7 +2648,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_b058c4160f",
@@ -2119,7 +2665,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_1501f2b9d7",
@@ -2133,7 +2682,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_457713137e",
@@ -2147,7 +2699,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_7af3cdf460",
@@ -2161,7 +2716,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_c9b23820a7",
@@ -2175,7 +2733,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_30454fe1b4",
@@ -2189,7 +2750,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "application",
+   "titleEn": null,
+   "summaryEn": null
   },
   {
    "id": "p_05f1539a81",
@@ -2203,7 +2767,10 @@
    "isOpen": false,
    "firstSeen": null,
    "score": null,
-   "snippet": null
+   "snippet": null,
+   "category": "subsidy",
+   "titleEn": null,
+   "summaryEn": null
   }
  ]
 }
