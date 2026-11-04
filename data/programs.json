@@ -2,9 +2,9 @@
  "meta": {
   "name": "Shanghai Subsidy Radar — China policy data feed",
   "version": 1,
-  "updatedAt": "2026-11-03T00:10:05.597Z",
+  "updatedAt": "2026-11-04T00:10:06.265Z",
   "cadence": "daily 08:00 Asia/Shanghai",
-  "count": 156,
+  "count": 153,
   "openCount": 3,
   "sources": [
    "上海市交通委 · 通知公告",
@@ -76,11 +76,11 @@
   "categories": {
    "application": 15,
    "subsidy": 26,
-   "publicity": 26,
+   "publicity": 25,
    "recognition": 6,
    "other": 16,
-   "policy": 65,
-   "event": 2
+   "policy": 64,
+   "event": 1
   },
   "license": "Public government notices. Original Chinese notice is authoritative. Attribution: Shanghai Subsidy Radar (shituapp.com/dot).",
   "homepage": "https://shituapp.com/dot/en/api.html"
@@ -94,7 +94,7 @@
    "sourceId": "sh-jtw-tzgg",
    "published": "2026-10-28",
    "deadline": "2026-11-06",
-   "daysLeft": 4,
+   "daysLeft": 3,
    "isOpen": true,
    "firstSeen": "2026-10-31",
    "score": 11,
@@ -111,7 +111,7 @@
    "sourceId": "sh-sww-gfx",
    "published": "2026-09-29",
    "deadline": "2026-12-31",
-   "daysLeft": 59,
+   "daysLeft": 58,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 9,
@@ -128,7 +128,7 @@
    "sourceId": "sh-rsj-gfx",
    "published": "2026-10-09",
    "deadline": "2026-12-31",
-   "daysLeft": 59,
+   "daysLeft": 58,
    "isOpen": true,
    "firstSeen": "2026-10-24",
    "score": 6,
@@ -1107,23 +1107,6 @@
    "summaryEn": null
   },
   {
-   "id": "p_a7760302c4",
-   "title": "上海市人民政府关于加强第48届世界技能大赛期间无人机等航空器安全管理的通告",
-   "url": "https://www.shanghai.gov.cn/nw12344/20260917/ab7f1fb8fa6f4a2780f6f4b7b0580475.html",
-   "source": "上海市政府 · 政策文件",
-   "sourceId": "sh-gov-policy",
-   "published": "2026-09-17",
-   "deadline": null,
-   "daysLeft": null,
-   "isOpen": false,
-   "firstSeen": null,
-   "score": null,
-   "snippet": null,
-   "category": "event",
-   "titleEn": null,
-   "summaryEn": null
-  },
-  {
    "id": "p_2bd499d125",
    "title": "市商务委关于废止《上海市电子商务示范企业创建管理办法》的通知 2026-09-17",
    "url": "https://sww.sh.gov.cn/zwgkgfqtzcwj/20260917/5e273489c5cc47c0bd9b4fcb7868207f.html",
@@ -1396,23 +1379,6 @@
    "summaryEn": null
   },
   {
-   "id": "p_7b30114d83",
-   "title": "关于上海市2026年度高水平机构建设运行计划“软科学研究”项目立项的通知",
-   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/bsgsgg/kjjhxmjggb/20260828/31d2dbed6ab24d5bb8c9380bfdc247a6.html",
-   "source": "上海市科委 · 通知公告",
-   "sourceId": "sh-kjw-notice",
-   "published": "2026-08-28",
-   "deadline": null,
-   "daysLeft": null,
-   "isOpen": false,
-   "firstSeen": null,
-   "score": null,
-   "snippet": null,
-   "category": "policy",
-   "titleEn": null,
-   "summaryEn": null
-  },
-  {
    "id": "p_03aac151a1",
    "title": "上海市发展和改革委员会关于车用汽、柴油价格的通知（2026年8月28日）",
    "url": "http://fgw.sh.gov.cn/fgw_jggl/20260828/4cab850532374760b8ef030feb022368.html",
@@ -1443,23 +1409,6 @@
    "score": null,
    "snippet": null,
    "category": "application",
-   "titleEn": null,
-   "summaryEn": null
-  },
-  {
-   "id": "p_eebbe1fc90",
-   "title": "关于公布2026年度上海市科技创新券服务机构综合评价结果的通知",
-   "url": "https://stcsm.sh.gov.cn/zwgk/tzgs/gsgg/zhgsgg/20260826/134a404b67f44aed8ac6d06cb394c17c.html",
-   "source": "上海市科委 · 通知公告",
-   "sourceId": "sh-kjw-notice",
-   "published": "2026-08-26",
-   "deadline": null,
-   "daysLeft": null,
-   "isOpen": false,
-   "firstSeen": null,
-   "score": null,
-   "snippet": null,
-   "category": "publicity",
    "titleEn": null,
    "summaryEn": null
   },
